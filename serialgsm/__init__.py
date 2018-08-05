@@ -6,6 +6,8 @@ from .baudrate import BaudRate, determine_baud_rate, establish_serial_connection
 from .gsm import SerialGSM
 from .sim900 import SerialSIM900
 
+name = "serialgsm"
+
 # Set default logging handler to avoid "No handler found" warnings.
 logging.getLogger(__name__).addHandler(logging.NullHandler())
 
